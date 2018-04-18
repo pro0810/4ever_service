@@ -1,7 +1,4 @@
 
-// Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-
 // Variables
 @import "variables";
 
@@ -11,4 +8,48 @@
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.navbar {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  &-column {
+    flex: 4;
+    padding-right: 15px;
+  }
+  &-operator {
+    flex: 4;
+    padding-right: 15px;
+  }
+  &-input {
+    flex: 6;
+    padding-right: 15px;
+  }
+  &-btn {
+    flex: 1;
+  }
+}
+
+.pagination-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagination-input {
+  width: 45px;
 }

@@ -1,0 +1,33 @@
+laravel new invoice
+yarn
+art make:model Customer -m
+art make:model Invoice -m
+art make:model InvoiceItem -m
+art migrate
+art make:seed CustomerTableSeeder
+art make:seed InvoiceTableSeeder
+art db:seed
+art make:controller CustomerController
+art make:controller InvoiceController
+art maigrate:refresh --seed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+php artisan make:controller PhotoController --resource
+php artisan route:cache
+php artisan route:clear
+

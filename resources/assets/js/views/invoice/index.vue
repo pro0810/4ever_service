@@ -1,6 +1,6 @@
 <template>
     <data-viewer :source="source" :thead="thead" :filter="filter" :create="create" :title="title">
-        <template scope="props">
+        <template slot-scope="props">
             <tr @click="$router.push('/invoice/' + props.item.id)">
                 <td>{{props.item.id}}</td>
                 <td>{{props.item.date}}</td>

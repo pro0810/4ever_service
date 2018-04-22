@@ -3,53 +3,68 @@
 @import "variables";
 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
+//@import '~bootstrap/scss/bootstrap';
+@import '~vuetify/dist/vuetify.min.css';
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+.fade-transition-enter {
+  transition: opacity .5s;
 }
 
-.navbar {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
 
-.card-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white;
-}
+//body {
+//  font-family: 'Mirza', cursive !important;
+//  font-size: 22px !important;
+//}
 
-.filter {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 15px;
-  &-column {
-    flex: 4;
-    padding-right: 15px;
-  }
-  &-operator {
-    flex: 4;
-    padding-right: 15px;
-  }
-  &-input {
-    flex: 6;
-    padding-right: 15px;
-  }
-  &-btn {
-    flex: 1;
-  }
-}
+//.bg-dark {
+//  background-color: #000 !important;
+//}
 
-.pagination-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.pagination-input {
-  width: 45px;
-}
+//.navbar-laravel {
+//  background-color: #fff;
+//  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+//}
+//
+//.navbar {
+//  margin-top: 15px;
+//  margin-bottom: 15px;
+//}
+//
+//.card-header {
+//  display: flex;
+//  justify-content: space-between;
+//  align-items: center;
+//  background-color: white;
+//}
+//
+//.filter {
+//  display: flex;
+//  justify-content: space-between;
+//  align-items: center;
+//  margin-bottom: 15px;
+//  &-column {
+//    flex: 4;
+//    padding-right: 15px;
+//  }
+//  &-operator {
+//    flex: 4;
+//    padding-right: 15px;
+//  }
+//  &-input {
+//    flex: 6;
+//    padding-right: 15px;
+//  }
+//  &-btn {
+//    flex: 1;
+//  }
+//}
+//
+//.pagination-footer {
+//  display: flex;
+//  justify-content: space-between;
+//  align-items: center;
+//}
+//
+//.pagination-input {
+//  width: 45px;
+//}
